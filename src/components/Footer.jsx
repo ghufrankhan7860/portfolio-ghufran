@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillSetting } from "react-icons/ai";
 import useIP from "../hooks/useIP";
-import { useState, useEffect } from "react";
 
 const Footer = () => {
     const IP = useIP() || "127.0.0.1";
