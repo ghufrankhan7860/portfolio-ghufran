@@ -25,9 +25,7 @@ const WebTemplate = ({ web }) => {
                     </div>
                 </a>
 
-                <div className="text-xl pt-2 text-blue-400">
-                    Ghufran Mahmood
-                z</div>
+                <div className="text-xl pt-2 text-blue-400">Ghufran</div>
 
                 <div className="opacity-80 text-sm text-justify max-h-[30dvh] line-clamp-5">
                     {web.desc === ""

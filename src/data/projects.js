@@ -4,7 +4,7 @@ import webNote from "../images/projects/webNote.png";
 import portfolio from "../images/projects/portfolio.png";
 import amazon from "../images/projects/amazon.png";
 import zootopweb from "../images/projects/ZooTop.png";
-import chess from "../images/projects/Chess.png";
+import reslistapp from "../images/projects/reslistapp/reslistapp1.png";
 
 import hellotypo from "../images/projects/hellotypo/hellotypo3.png";
 import dashboard from "../images/projects/dashboardfeed/dashbaord3.png";
@@ -29,9 +29,9 @@ const data = [
     },
     {
         name: "Reslist App",
-        img: chess,
+        img: reslistapp,
         // link: "https://store-zero-ecommerce.vercel.app/",
-        link: "https://chess-kohl-rho.vercel.app/",
+        link: "https://res-list-app.netlify.app/",
         // start data : 29th sep 2023
         time: "20th Jan 2024",
         id: 7,
