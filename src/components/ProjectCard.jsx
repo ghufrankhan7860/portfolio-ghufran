@@ -1,13 +1,11 @@
 import React from "react";
-import icon1 from "../images/sololeveling.jpg";
 import { Link } from "react-router-dom";
+import icon1 from "../images/profiles/github.png";
 
 const ProjectCard = ({ project }) => {
     return (
         <Link
-            // href={project.link}
             to={project.link}
-            // to={`/${project.id}`}
             target="_blank"
             rel="noreferrer"
             className="min-w-fit cursor-pointer "
