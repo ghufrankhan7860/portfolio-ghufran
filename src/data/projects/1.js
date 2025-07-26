@@ -39,134 +39,134 @@ import graphql_logo from "../../images/skills/graphql_png.png";
 import firebase_logo from "../../images/skills/firebase.png";
 
 const skills = {
-  html: { name: "HTML", img: html_logo, star: 4 },
-  css: { name: "CSS", img: css_logo, star: 4 },
-  javascript: { name: "JAVASCRIPT", img: js_logo, star: 3 },
-  react: { name: "REACT", img: react_logo, star: 4 },
-  nextJs: { name: "NextJS", img: next_js_logo, star: 3 },
-  expressJs: { name: "ExpressJS", img: express_logo, star: 4 },
-  mongoDB: { name: "MongoDB", img: mongo_logo, star: 4 },
-  c_plus_plus: { name: "C++", img: c_plus_logo, star: 4 },
-  python: { name: "PYTHON", img: python_logo, star: 4 },
-  graphQL: { name: "GRAPHQL", img: graphql_logo, star: 3 },
-  tailwind: { name: "TAILWIND CSS", img: tailwind_logo, star: 4 },
-  firebase: { name: "FIREBASE", img: firebase_logo, star: 2 },
-  nodeJS: { name: "NODE JS", img: node_js_logo, star: 3 }
+    html: { name: "HTML", img: html_logo, star: 4 },
+    css: { name: "CSS", img: css_logo, star: 4 },
+    javascript: { name: "JAVASCRIPT", img: js_logo, star: 3 },
+    react: { name: "REACT", img: react_logo, star: 4 },
+    nextJs: { name: "NextJS", img: next_js_logo, star: 3 },
+    expressJs: { name: "ExpressJS", img: express_logo, star: 4 },
+    mongoDB: { name: "MongoDB", img: mongo_logo, star: 4 },
+    c_plus_plus: { name: "C++", img: c_plus_logo, star: 4 },
+    python: { name: "PYTHON", img: python_logo, star: 4 },
+    graphQL: { name: "GRAPHQL", img: graphql_logo, star: 3 },
+    tailwind: { name: "TAILWIND CSS", img: tailwind_logo, star: 4 },
+    firebase: { name: "FIREBASE", img: firebase_logo, star: 2 },
+    nodeJS: { name: "NODE JS", img: node_js_logo, star: 3 },
 };
 
 const data = [
-  {
-    name: "WebText",
-    img: webtext,
-    link: "https://textutil-a1222.web.app/",
-    time: "July 2023",
-    id: 1,
-    category: "FrontEnd",
-    mainimg: "",
-    img1: webtext1,
-    img2: webtext2,
-    img3: webtext3,
-    img4: webtext4,
+    {
+        name: "WebText",
+        img: webtext,
+        link: "https://textutil-a1222.web.app/",
+        time: "July 2023",
+        id: 1,
+        category: "FrontEnd",
+        mainimg: "",
+        img1: webtext1,
+        img2: webtext2,
+        img3: webtext3,
+        img4: webtext4,
 
-    rightbox: {
-      technology: [skills.html, skills.css, skills.javascript],
-      projectInfo: ""
-    }
-  },
-  {
-    name: "WebNote",
-    img: webNote1,
-    link: "https://webnote-4609d.web.app/",
-    time: "July 2023",
-    id: 2,
-    category: "FrontEnd",
-    mainimg: "",
-    img1: webNote1,
-    img2: webNote3,
-    img3: webNote4,
-    img4: webNote2,
+        rightbox: {
+            technology: [skills.html, skills.css, skills.javascript],
+            projectInfo: "",
+        },
+    },
+    {
+        name: "WebNote",
+        img: webNote1,
+        link: "https://webnote-4609d.web.app/",
+        time: "July 2023",
+        id: 2,
+        category: "FrontEnd",
+        mainimg: "",
+        img1: webNote1,
+        img2: webNote3,
+        img3: webNote4,
+        img4: webNote2,
 
-    rightbox: {
-      technology: [
-        skills.html,
-        skills.css,
-        skills.javascript,
-        skills.firebase,
-        skills.react
-      ],
-      projectInfo: ""
-    }
-  },
-  {
-    name: "InstaXore | Social App",
-    img: instaxore6,
-    link: "https://github.com/sonu-kumar-zero/insta",
-    time: "Sep 2023",
-    id: 3,
-    category: "FullStack",
-    mainimg: "",
-    img1: instaxore1,
-    img2: instaxore2,
-    img3: instaxore3,
-    img4: instaxore4,
-    img5: instaxore5,
-    img6: instaxore6,
+        rightbox: {
+            technology: [
+                skills.html,
+                skills.css,
+                skills.javascript,
+                skills.firebase,
+                skills.react,
+            ],
+            projectInfo: "",
+        },
+    },
+    {
+        name: "InstaXore | Social App",
+        img: instaxore6,
+        link: "https://github.com/sonu-kumar-zero/insta",
+        time: "Sep 2023",
+        id: 3,
+        category: "FullStack",
+        mainimg: "",
+        img1: instaxore1,
+        img2: instaxore2,
+        img3: instaxore3,
+        img4: instaxore4,
+        img5: instaxore5,
+        img6: instaxore6,
 
-    rightbox: {
-      technology: [
-        skills.html,
-        skills.expressJs,
-        skills.mongoDB,
-        skills.nodeJS,
-        skills.react,
-        skills.tailwind,
-        skills.javascript
-      ],
-      projectInfo: ""
-    }
-  },
-  {
-    name: "Sonu Kumar | Portfolio",
-    img: portfolio,
-    link: "/",
-    time: "Sep 2023",
-    id: 4,
-    category: "Frontend",
-    mainimg: "",
-    img1: "",
-    img2: "",
-    img3: "",
-    img4: "",
+        rightbox: {
+            technology: [
+                skills.html,
+                skills.expressJs,
+                skills.mongoDB,
+                skills.nodeJS,
+                skills.react,
+                skills.tailwind,
+                skills.javascript,
+            ],
+            projectInfo: "",
+        },
+    },
+    {
+        name: "Ghufran Mahmood | Portfolio",
+        img: portfolio,
+        link: "/",
+        time: "Sep 2023",
+        id: 4,
+        category: "Frontend",
+        mainimg: "",
+        img1: "",
+        img2: "",
+        img3: "",
+        img4: "",
 
-    rightbox: {
-      technology: [
-        skills.react,
-        skills.html,
-        skills.javascript,
-        skills.tailwind
-      ],
-      projectInfo: ""
-    }
-  },
-  {
-    name: "storeXORE | Ecommerce",
-    img: amazon,
-    link: "https://store-zero-ecommerce.vercel.app/",
-    // start data : 29th sep 2023
-    time: "29th Sep 2023",
-    id: 5,
-    category: "Frontend",
-    mainimg: "",
-    img1: amazon1,
-    img2: amazon2,
-    img3: amazon3,
-    img4: amazon4,
+        rightbox: {
+            technology: [
+                skills.react,
+                skills.html,
+                skills.javascript,
+                skills.tailwind,
+            ],
+            projectInfo: "",
+        },
+    },
+    {
+        name: "storeXORE | Ecommerce",
+        img: amazon,
+        link: "https://store-zero-ecommerce.vercel.app/",
+        // start data : 29th sep 2023
+        time: "29th Sep 2023",
+        id: 5,
+        category: "Frontend",
+        mainimg: "",
+        img1: amazon1,
+        img2: amazon2,
+        img3: amazon3,
+        img4: amazon4,
 
-    rightbox: {
-      technology: [skills.html, skills.tailwind],
-      projectInfo: ""
-    }
-  }
+        rightbox: {
+            technology: [skills.html, skills.tailwind],
+            projectInfo: "",
+        },
+    },
 ];
 
 export default data;

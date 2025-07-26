@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
+body {
     width: 100dvw;
     height: 100dvh;
     overflow: scroll;
@@ -11,10 +10,10 @@ body{
     color: #f0f0f0;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
 
-.projectBOX::-webkit-scrollbar{
+.projectBOX::-webkit-scrollbar {
     display: none;
 }

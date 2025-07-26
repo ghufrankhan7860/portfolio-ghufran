@@ -37,11 +37,12 @@ const RightBox = () => {
                         applications.
                         <br /> Beyond software, I have a deep interest in
                         electronics and computer architecture. I have worked on
-                        designing a Hand gesture detector which maps the hand gestures
-                        to voice commands , it is based on arduino nano microcontroller. 
-                        My skills extend to hardware programming, circuit design, and
-                        microcontroller-based systems, allowing me to integrate
-                        software and hardware seamlessly.
+                        designing a Hand gesture detector which maps the hand
+                        gestures to voice commands , it is based on arduino nano
+                        microcontroller. My skills extend to hardware
+                        programming, circuit design, and microcontroller-based
+                        systems, allowing me to integrate software and hardware
+                        seamlessly.
                         <br /> I am driven by a passion for innovation and
                         problem-solving, constantly seeking opportunities to
                         apply my technical skills to real-world challenges. With
